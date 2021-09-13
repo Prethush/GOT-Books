@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" class="p-0 m-0 box-border">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-blue-500 font-heading">
+    
+    <h1 class="text-center text-3xl font-bold p-8 bg-blue-900 text-white">List of GOT books</h1>
+    
+    <div id="container" class="px-8 py-16 md:px-16 text-center">
+        <div class="error text-center text-3xl text-red-700 hidden my-12"></div>
+        <div class="main">
+            <ul class="flex flex-wrap">
+        
+            </ul>     
+        </div>
+        <div class="modal left-12 right-12 absolute top-24 sm:left-20 sm:right-20 bg-blue-200 pb-8 hidden rounded-xl h-custom">
+            <div class="h-10 mb-12">
+                <h2 class="text-left text-2xl font-bold text-white p-4 bg-blue-700">Characters List</h2>
+                <span class="close text-right absolute cursor-pointer mb-4 right-5 top-6">❌</span>
+            </div>
+            <div class="mini-container">
+                <ul class="characters-data text-left absolute overflow-y-scroll top-16 right-0 left-0 bottom-6 p-8"></ul>
+            </div>
+        </div>
+    </div> 
+   
+    <script src="index.js"></script>
+</body>
+</html>
