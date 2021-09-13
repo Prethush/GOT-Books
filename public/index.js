@@ -36,7 +36,7 @@ function displayCharacters(characters) {
         miniContainer.innerHTML = "";
         data.forEach((character) => {
         let li = document.createElement("li");
-        li.classList.add("border-solid", "border-2", "border-gray-400", "p-2", "my-2", "text-lg", "sm:text-xl", "font-semibold");
+        li.classList.add("border-solid", "border-2", "border-gray-400", "p-2", "my-2", "text-md", "sm:text-xl", "font-semibold");
          li.innerText = `${character.name}: ${character.aliases.join(" ")}`;
         charactersData.append(li);
         miniContainer.append(charactersData);
