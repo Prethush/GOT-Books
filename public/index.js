@@ -79,8 +79,6 @@ function displayUI(books) {
     })
 }
 
-
-
 function booksData() {
     handleSpinner(container, true);
     fetch(url).then((res) => {
@@ -100,8 +98,7 @@ function booksData() {
 // Promise.all(books.map((book) => book).then(console.log));
 
 modal.addEventListener("load", (e) => {
-    console.log("Hi");
-modal.style.display = "none";
+    modal.style.display = "none";
 });
 console.log(modal);
 
